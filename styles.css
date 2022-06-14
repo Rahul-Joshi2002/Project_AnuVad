@@ -1,0 +1,48 @@
+body
+{
+    background-color: beige;
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold; 
+    width: 400px;
+    height: 300px;
+}
+p{  
+    margin-top: 20px;
+    margin-left: 8px;
+    text-align: left;
+    font-weight: 500;
+    color: blue;
+    font-size: 18px;
+}
+p#hidden
+{
+    margin-top: 35px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+    font-weight: 600;
+    color: blue;
+    font-size: 18px;
+}
+#search
+{
+    width: 390px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+#sb
+{
+    width: 380px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn 
+{
+    width: 380px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
