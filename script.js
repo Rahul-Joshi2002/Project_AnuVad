@@ -7,6 +7,8 @@ function noteFun() {
 function searchFun() {
   str = query.value;
   console.log("query: " + str);
+  let loader = '<div id = "load"></div><div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>'
+  document.getElementById('answer').innerHTML = loader
 
 const data = null;
 
@@ -23,6 +25,7 @@ xhr.addEventListener("readystatechange", function () {
               <div id = "search">
               </div>
               <a class="btn btn-secondary" href="popup.html" role="button">Reset</a>
+              <p id = "name">-by Rahul Joshi</p>
               </div>`
               answer.innerHTML = info;
 	}
@@ -43,6 +46,8 @@ query.addEventListener("keydown", function(event) {
         event.preventDefault();
         str = query.value;
         console.log("query: " + str);
+        let loader = '<div id = "load"></div><div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>'
+        document.getElementById('answer').innerHTML = loader
 
         const data = null;
 
@@ -58,7 +63,8 @@ query.addEventListener("keydown", function(event) {
                       <p id = "hidden">${ans}</p>
                       <div id = "search">
                       </div>
-                      <a class="btn btn-secondary" href="popup.html" role="button">Reset</a>                  
+                      <a class="btn btn-secondary" href="popup.html" role="button">Reset</a>
+                      <p id = "name">-by Rahul Joshi</p>                  
                       </div>`
                       answer.innerHTML = info;
           }
